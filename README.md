@@ -11,6 +11,55 @@ The **AI-Powered Phishing Detection System** is a project designed to identify p
 
 ---
 
+## 🖼️ Screenshots & Visuals  
+
+Here are some visuals showcasing the key components of the phishing detection system:  
+
+### 🏠 Landing Page  
+> **Description**: The main entry point of the platform.  
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1e30f75e-436f-4bb9-bd5a-0158b7cb08f5" alt="Landing Page" width="600"/>
+</p>
+
+### 🔑 Login Page  
+> **Description**: Secure authentication system for users.  
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/18275ac4-fd67-4c06-93d9-4fdd571c1b15" alt="Login Page" width="600"/>
+</p>
+
+### 🎯 Phishing Detection Dashboard  
+> **Description**: The main dashboard displaying detection results and analytics.  
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2f4ea95d-5fa0-48a8-ab1c-5bb0b39368e1" alt="Dashboard" width="600"/>
+</p>
+
+### 🔍 Email, SMS, URL Phishing Detection Result  
+> **Description**: System detecting and classifying URLs as phishing or safe.  
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/71a40aa4-be1e-4cf5-9966-8c612ca6890d" alt="Phishing Detection Result" width="600"/>
+</p>
+
+### 📩 Telegram Message Integration  
+> **Description**: The system alerts users about phishing threats via Telegram.  
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3ba259e3-0af0-483b-8ba8-bc37f0c32eb6" alt="Telegram Alerts" width="600"/>
+</p>
+
+### 🤖 AI Chatbot for Phishing Assistance  
+> **Description**: A chatbot that helps analyze and detect phishing threats.  
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/86a2a807-bc17-4e0a-ac16-3e9dfaf8ab60" alt="AI Chatbot" width="600"/>
+</p>
+
+### 📧 Email Phishing Detection Example  
+> **Description**: Detection of phishing emails using AI models.  
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f9d91a93-2b0f-4c3e-bc1e-de00bd0ec15a" alt="Email Phishing Detection" width="600"/>
+</p>
+
+
+---
+
 ## 🏗️ Installation & Setup  
 
 ### 🔧 Prerequisites  
