@@ -1,0 +1,122 @@
+/* Full Page Container */
+.signup-container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Left Section (Illustration with Background Image) */
+.signup-left {
+    width: 60%;
+    background: url('../../public/background_image2.png') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.illustration {
+    width: 90%;
+    max-width: 500px;
+}
+
+/* Right Section (Signup Form) */
+.signup-right {
+    width: 40%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #0c362b; /* MongoDB Green */
+}
+
+/* Social Signup Buttons */
+.social-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.social-button img {
+    width: 20px;
+    margin-right: 8px;
+}
+
+.social-button:hover {
+    background-color: #f5f5f5;
+}
+
+/* Input Fields */
+.input1 {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: black;
+}
+
+.input1:focus {
+    border-color: #0c362b;
+    outline: none;
+}
+
+/* Signup Button */
+.submit {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #10aa50; /* MongoDB Green */
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.submit:hover {
+    background-color: #0c8040;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .signup-container {
+        flex-direction: column;
+    }
+
+    .signup-left, .signup-right {
+        width: 100%;
+    }
+
+    .signup-left {
+        display: none; /* Hide illustration on small screens */
+    }
+}
