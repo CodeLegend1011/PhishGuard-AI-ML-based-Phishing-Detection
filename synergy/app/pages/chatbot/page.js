@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Layout from "../../../components/ui/layout";
 
-const GEMINI_API_KEY = "AIzaSyCnHWtv71mG_s7a9pOhYqIlBbP3N3SlO4A";
+const GEMINI_API_KEY = "1234";       // API key here
 
 export default function Chatbot() {
   const [messages, setMessages] = useState([]);
